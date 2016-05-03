@@ -94,5 +94,5 @@ function saveData(){
 function updateSaveMessage(message){
     var saveStatusElement = $(".save-status");
     saveStatusElement.text(message);
-    saveStatusElement.fadeIn(200).delay(2000).fadeOut(200);
+    saveStatusElement.fadeIn(500).delay(2000).fadeOut(500);
 }
