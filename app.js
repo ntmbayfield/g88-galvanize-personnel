@@ -1,6 +1,6 @@
 var personnel;
 var roles;
-var apiURL = "http://localhost:3000";
+var apiURL = "https://secure-eyrie-78012.herokuapp.com";
 
 $(document).ready(function(){
     attachHandlers();
@@ -43,9 +43,6 @@ function findById(collection, id){
     }
 
     return false;
-}
-
-function addPersonnel(){
 }
 
 function fetchRoles(){
