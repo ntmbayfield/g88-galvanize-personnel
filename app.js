@@ -81,7 +81,7 @@ function changePicture(role){
 
 function saveData(){
     return new Promise(function(resolve, reject){
-        var endpoint = [apiURL, "roles"].join("/");
+        var endpoint = [apiURL, "users"].join("/");
         $.post(endpoint, getFormData(), function(response){
             resolve(response.message);
         });
