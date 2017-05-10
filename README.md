@@ -1,3 +1,7 @@
+# Solution
+
+This is the solution from my video walkthrough here: https://www.youtube.com/watch?v=36O5TUviaMM
+
 # Galvanize Personnel
 
 You are making an app for your new company that assigns roles to employees. You'll need to:
