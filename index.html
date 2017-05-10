@@ -8,8 +8,18 @@
     <body>
       <h1>Galvanize Personnel</h1>
       <form>
-        <!-- Your code here! -->
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstname" id="firstName" value="">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" value="">
+        <select name="role" id="role">
+          <option value="" disabled selected>select a role</option>
+        </select>
+        <img src="http://placehold.it/275x275" alt="role" id="roleImage">
+        <button type="submit" name="submitButton" class="save">Save</button>
+        <p class="save-status"></p>
       </form>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" charset="utf-8"></script>
       <script src="./assets/scripts/app.js" charset="utf-8"></script>
     </body>
 </html>
