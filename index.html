@@ -8,7 +8,31 @@
     <body>
       <h1>Galvanize Personnel</h1>
       <form>
-        <!-- Your code here! -->
+        <!-- Your code here!
+        * A first name input (with a label)
+          * When the form loads, the user's focus should automatically start in this input field
+        * A last name input (with a label)
+        * A drop-down menu for roles (with a label and a disabled placeholder that says "Select an option here")
+        * An 275px by 275px image from [placehold.it](https://placehold.it) as a placeholder, with the css class "role-preview"
+          * For accessibility, add a descriptive `alt` tag
+        * A submit button with the class "save" and text of "Save"
+        * An empty paragraph with the class "save-status"-->
+        <label>First Name:</label>
+        <input type="text" name="first_name" id="first_name">
+          <br>
+        <label>Last Name:</label>
+        <input type="text" name="last_name" id="last_name">
+          <br>
+        <label>Roles</label>
+        <select name="roles">
+          <option value="" selected="selected">Select One</option>
+          <option value="teacher">Teacher</option>
+          <option value="administrator">Administrator</option>
+          <option value="parent">Parent</option>
+          <option value="currentStudent">Current Student</option>
+          <option value="prospectiveStudent">Prospective Student</option>
+      	</select>
+
       </form>
       <script src="./assets/scripts/app.js" charset="utf-8"></script>
     </body>
