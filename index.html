@@ -17,28 +17,22 @@
           * For accessibility, add a descriptive `alt` tag
         * A submit button with the class "save" and text of "Save"
         * An empty paragraph with the class "save-status"-->
-        <label>First Name:</label>
+        <label for="first_name">First Name:</label>
         <input type="text" name="first_name" id="first_name">
 
         <br>
 
-        <label>Last Name:</label>
+        <label for="last_name">Last Name:</label>
         <input type="text" name="last_name" id="last_name">
 
         <br>
 
-        <label>Roles</label>
+        <label for="roles">Roles</label>
         <select name="roles">
-          <option value="" placeholder="Select An Option Here" disabled</option>
-          <option value="role1">Role1</option>
-          <option value="role2">Role2</option>
-          <option value="role3">Role3</option>
-          <option value="role4">Role4</option>
-          <option value="role5">Role5</option>
+          <option selected disabled>Select an option here</options>
       	</select>
 
         <img class="role-preview" src="https://via/placeholder.com/275" alt="275 x 275 placeholder image">
-
 
         <button class="save">Save</button>
 
