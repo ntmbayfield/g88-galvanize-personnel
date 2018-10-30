@@ -53,7 +53,7 @@ saveButton.addEventListener('click', function(event) => {
     })
 })
 
-//uses result of GET request made to https://galvanize-student-apis.herokuapp.com/gpersonnel/roles to dynamically create the items listed in the drop down menu of the form 
+//uses result of GET request made to https://galvanize-student-apis.herokuapp.com/gpersonnel/roles to dynamically create the items listed in the drop down menu of the form
 function generateRoles(roles) {
   for (let i=0; i < roles.length; i++) {
     let role = roles[i].title;
@@ -87,7 +87,7 @@ function changeImageDisplayed(roles) {
 //     role: 'Selected Role'
 //   }
 //   ```
-function covertFormDataToObj() {
+function convertFormDataToObj() {
   let firstName = document.querySelector('#first_name').value;
   let lastName = document.querySelector('#last_name').value;
   let role = document.querySelector('#role').value;
