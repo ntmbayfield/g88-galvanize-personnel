@@ -1,0 +1,22 @@
+{
+  "name": "galvanize-personnel",
+  "version": "1.0.0",
+  "description": "You are making an app for your new company that assigns roles to employees. You'll need to:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntmbayfield/galvanize-personnel.git"
+  },
+  "author": "Nyiema Bayfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntmbayfield/galvanize-personnel/issues"
+  },
+  "homepage": "https://github.com/ntmbayfield/galvanize-personnel#readme",
+  "dependencies": {
+    "firebase": "^5.5.6"
+  }
+}
