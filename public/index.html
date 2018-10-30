@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Galvanize Personnel</title>
+        <link rel="stylesheet" href="./assets/styles/main.css">
+    </head>
+    <body>
+      <h1>Galvanize Personnel</h1>
+      <form>
+        <!-- Your code here!
+        * A first name input (with a label)
+          * When the form loads, the user's focus should automatically start in this input field
+        * A last name input (with a label)
+        * A drop-down menu for roles (with a label and a disabled placeholder that says "Select an option here")
+        * An 275px by 275px image from [placehold.it](https://placehold.it) as a placeholder, with the css class "role-preview"
+          * For accessibility, add a descriptive `alt` tag
+        * A submit button with the class "save" and text of "Save"
+        * An empty paragraph with the class "save-status"-->
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name">
+
+        <br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name">
+
+        <br>
+
+        <label for="roles">Roles</label>
+        <select name="roles">
+          <option selected disabled>Select an option here</option>
+      	</select>
+
+        <img class="role-preview" src="https://via/placeholder.com/275" alt="275 x 275 placeholder image">
+
+        <button class="save">Save</button>
+
+        <br>
+
+        <p class="save-status">
+      </form>
+      <script src="./assets/scripts/app.js" charset="utf-8"></script>
+    </body>
+  <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAYT3llGBjpvfy98mDGr_jwO9qdj9w-OJc",
+      authDomain: "ntmbayfield-gpersonnel.firebaseapp.com",
+      databaseURL: "https://ntmbayfield-gpersonnel.firebaseio.com",
+      projectId: "ntmbayfield-gpersonnel",
+      storageBucket: "ntmbayfield-gpersonnel.appspot.com",
+      messagingSenderId: "345093329618"
+    };
+    firebase.initializeApp(config);
+  </script>
+</html>

@@ -63,4 +63,8 @@ You are making an app for your new company that assigns roles to employees. You'
 ## Deploy!
 
 1. Deploy to firebase and add the deployed URL to this readme.
+
+   This project has been deployed to the following URL:
+   https://ntmbayfield-gpersonnel.firebaseapp.com
+
 1. Make a pull request!
