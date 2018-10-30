@@ -1,5 +1,5 @@
 // Your code here!
-const apiEndpoint= 'https://galvanize-student-apis.herokuapp.com/gpersonnal';
+const apiEndpoint= 'https://galvanize-student-apis.herokuapp.com/gpersonnel';
 const roleChoice = document.querySelector('#role');
 const imageChoice = document.querySelector('.role-preview');
 const saveButton = document.querySelector('.save');
